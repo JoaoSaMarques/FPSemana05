@@ -13,7 +13,11 @@ def Divide(x, y):
 print("Select operation.\n 1. Multiply \n 2. Add\n 3. Subtract\n 4. Divide")
 
 while True:
-    choice = input("Enter between 1/2/3/4")
+    choice = input("Enter between 1/2/3/4 or 'Exit': ")
+    if choice == 'Exit':
+        print("Exiting the program.")
+        break
+    
     num1 = int(input("First number here: "))
     num2 = int(input("Second number here: "))
     
@@ -28,9 +32,6 @@ while True:
         
     elif choice == '4':
         print(num1, "/", num2, "=", Divide(num1, num2))
-        
-    elif choice == 'Exit':
-        break
     
     else:
         print("I do not understand command.")
