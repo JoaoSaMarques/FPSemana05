@@ -9,3 +9,6 @@ def Calculator():
     def Subtract(x, y):
         return x - y
         
+    def Divide(x, y):
+        return x / y
+    
