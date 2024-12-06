@@ -1,5 +1,6 @@
 class Produto:
-    pass
+    def __init__(self, nome, preco, quantidade):
+    
 
 
 produto1 = Produto("Vaso", 19.99, 100)
