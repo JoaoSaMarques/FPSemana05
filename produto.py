@@ -5,6 +5,12 @@ class Produto:
         self.quantidade = quantidade
         
     def adicionar_stock(self, quantidade):
+        self.quantidade += quantidade
+        
+        if quantidade > 0:
+            print(1)  
+        else:
+            print(0)
     
 
 
