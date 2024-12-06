@@ -19,6 +19,8 @@ class Produto:
             print(1)  
         else:
             print(0)  
+            
+    def exibir_info():
     
 
 
