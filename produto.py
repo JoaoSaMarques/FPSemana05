@@ -13,6 +13,12 @@ class Produto:
             print(0)
             
     def vender(self, quantidade):
+        
+        if quantidade <= self.quantidade:
+            self.quantidade -= quantidade
+            print(1)  
+        else:
+            print(0)  
     
 
 
