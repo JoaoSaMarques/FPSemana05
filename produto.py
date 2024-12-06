@@ -20,7 +20,8 @@ class Produto:
         else:
             print(0)  
             
-    def exibir_info():
+    def exibir_info(self):
+        print(f"Item: {self.nome} {self.preco} {self.quantidade}")
     
 
 
