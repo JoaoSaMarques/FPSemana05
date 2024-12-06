@@ -3,6 +3,8 @@ class Produto:
         self.nome = nome
         self.preco = preco
         self.quantidade = quantidade
+        
+    def adicionar_stock(self, quantidade):
     
 
 
